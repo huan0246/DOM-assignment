@@ -3,6 +3,16 @@
 let data = {
   results: [
     {
+      name: { title: 'Mr', first: 'Chunyen', last: 'Huang' },
+      email: 'huan0246@algonquinlive.com',
+      phone: '234-567-8901',
+      picture: {
+        large: './img/large.jpg',
+        medium: './img/medium.jpg',
+        thumbnail: './img/thumbnail.jpg',
+      },
+    },
+    {
       name: { title: 'Ms', first: 'Aubree', last: 'Bergeron' },
       email: 'aubree.bergeron@example.com',
       phone: '113-967-7699',

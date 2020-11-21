@@ -11,18 +11,19 @@ html {
 }
 html,
 body {
-  background-color: rebeccapurple;
+  background-color: hsl(25, 74%, 75%);
 }
 header {
-  background-color: rebeccapurple;
+  background-color: hsl(7, 37%, 28%);
   width: 100vw;
   padding: 1rem 5vw;
-  border-bottom: 5px solid #333;
+  border-bottom: 5px solid hsl(7, 37%, 8%);
 }
 header h1 {
   font-size: 3rem;
-  font-weight: 500;
-  color: white;
+  font-weight: bold;
+  color: hsl(25, 74%, 75%);
+  text-shadow: 5px 5px 10px hsl(7, 37%, 8%);
 }
 main {
   max-width: 90vw;
@@ -30,8 +31,7 @@ main {
 }
 .cards {
   width: 100%;
-  background-color: rebeccapurple;
-
+  background-color: hsl(25, 74%, 75%);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -42,47 +42,54 @@ main {
   width: 400px;
   height: 200px;
   background-color: white;
-  border: 1px solid white;
+  border: 2px solid hsl(7, 37%, 8%);
   display: grid;
   grid-template-areas: 'avatar name' 'avatar email' 'avatar cell';
   grid-template-columns: 30% 70%;
+  border-radius: 10px;
+  box-shadow:
+  3px 3px 8px hsl(7, 37%, 28%),
+  10px 10px 20px hsl(7, 37%, 48%);
 }
 .card .avatar {
   grid-area: avatar;
   display: flex;
   justify-content: center;
-  align-items: center;
-  background-color: rebeccapurple;
+  align-items: flex-start;
+  background-color: hsl(350, 70%, 27%);
+  border-radius: 7px 0 0 7px;
 }
 .avatar img {
+  margin:1rem auto auto .4rem;
   width: 80%;
   height: auto;
-  border: 2px solid white;
+  border: 2px solid hsl(7, 37%, 8%);
   border-radius: 50%;
+  box-shadow: 5px 5px 10px hsl(7, 37%, 8%);
 }
 .card .name {
   grid-area: name;
   font-size: 1.5rem;
-  font-weight: 500;
-  padding: 0.5rem 1rem;
-  color: rebeccapurple;
+  font-weight: bold;
+  padding: 1rem 1rem 0.5rem;
+  color: hsl(7, 37%, 28%);
 }
 .card .email {
   grid-area: email;
   font-size: 0.8rem;
-  font-weight: 300;
+  font-weight: 500;
   padding: 0.4rem 1rem;
-  color: rebeccapurple;
+  color: hsl(350, 70%, 27%);
 }
 .card .cell {
   grid-area: cell;
   font-size: 0.8rem;
-  font-weight: 300;
+  font-weight: 500;
   padding: 0.4rem 1rem;
-  color: rebeccapurple;
+  color: hsl(350, 70%, 27%);
 }
 pre {
-  background-color: white;
+  background-color: hsl(25, 74%, 75%);
   color: #333;
   padding: 1rem;
   font-size: 0.6rem;
