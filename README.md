@@ -1,5 +1,7 @@
 # assign2-f20-starter
 
+Personal card webpage construction by creating elements using JS - DOM manipulation.
+
 Starter code for assignment 2 MAD9014 Fall 2020
 
 There are two script files. One has the data and the other file uses that data. Include the data from the provided `data.js` file by attaching both javascript files to the HTML page with `<script>` tags. (this is already done if you used the starter files). Put the `data.js` `<script>` first.
